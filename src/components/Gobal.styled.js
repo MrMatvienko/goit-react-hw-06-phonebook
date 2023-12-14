@@ -9,18 +9,6 @@ export const Container = styled('div')`
   box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.3);
 `;
 
-export const SearchInput = styled.input`
-  width: 200px;
-  height: 20px;
-  margin-bottom: 5px;
-  border-radius: 10px;
-  border-color: black;
-  padding-left: 20px;
-  &::placeholder {
-    font-size: 12px;
-    color: black;
-  }
-`;
 export const TitleH1 = styled.h1`
   text-shadow: #fc0 1px 0 10px;
 `;
